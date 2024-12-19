@@ -4,18 +4,24 @@ body {
   padding: 0;
   background-color: #f9f9f9;
   text-align: center;
-}
 
-h1 {
-  color: red;
-  margin: 20px 0;
-  font-size: 28px;
 }
 
 table {
-  width: 80%;
-  margin: 0 auto;
+  width: 40%;
+  margin: 20px auto;
+  border: 3px solid red;
   text-align: center;
+}
+
+.tabele-td{
+  background-color: #693aa7;
+}
+
+caption {
+  font-size: 28px;
+  color: red;
+  margin-bottom: 10px;
 }
 
 th, td {
@@ -44,28 +50,9 @@ tbody tr:hover {
   cursor: pointer;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+tfoot td {
   background-color: #e6ba8e;
-  font-weight: bold;
-  border: 2px solid #007bff;
-  box-sizing: border-box;
-  width: 80%;
-  margin: 0 auto;
-  border-top: none;
-  padding: 10px 0;
-}
-
-.footer span {
-  flex: 1;
-  text-align: center;
   color: brown;
   text-transform: uppercase;
-  border-right: 1px solid red;
-}
-
-.footer span:last-child {
-  border-right: none;
+  font-weight: bold;
 }
